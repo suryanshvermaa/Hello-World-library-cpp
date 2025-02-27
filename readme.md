@@ -15,9 +15,12 @@ cmake ..
 make
 ```
 #### Add to your CMakeLists.txt file
-
+```
 target_link_libraries(main
     PRIVATE
     hello-world
-) \n
+) 
+```
+```
 add_subdirectory(Hello-world-library-cpp)
+```
